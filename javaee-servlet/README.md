@@ -8,7 +8,7 @@ Para executar o projeto é preciso o **Eclipse** e o **WildFly**.
 
 **Em cada Servlet existe uma breve documentação. Explicando o funcionamento e também os links de acesso.**
 
-###Para criar o projeto do zero:
+### Para criar o projeto do zero:
 
 - Criar o projeto com maven: **maven-archetype-webapp**
 - Group Id: **com.javaee.servlet**
