@@ -29,17 +29,17 @@ public class Servlet_5 extends HttpServlet {
 
 	@Override
 	public void init(ServletConfig arg0) throws ServletException {
-		System.out.println("Método init()");
+		System.out.println("Método init();");
 	}
 
 	@Override
 	public void service(ServletRequest arg0, ServletResponse arg1) throws ServletException, IOException {
-		System.out.println("Método service()");
+		System.out.println("Método service();");
 	}
 
 	@Override
 	public void destroy() {
 		// Método é chamado quando existe a liberação de memória, limpa os reursos.
-		System.out.println("Método destroy()");
+		System.out.println("Método destroy();");
 	}
 }
