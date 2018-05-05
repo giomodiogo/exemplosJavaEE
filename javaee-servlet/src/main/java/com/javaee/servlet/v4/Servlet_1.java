@@ -29,6 +29,7 @@ import javax.servlet.http.HttpServletResponse;
  *         {@link Servlet_1#service(HttpServletRequest, HttpServletResponse)}
  *         </p>
  */
+
 @WebServlet(name = "Servlet_1", urlPatterns = { "/servlet_1" }, initParams = {
 		@WebInitParam(name = "param1", value = "value1"), @WebInitParam(name = "param2", value = "value2") })
 
@@ -75,5 +76,4 @@ public class Servlet_1 extends HttpServlet {
 		out.println("</html>");
 		out.close();
 	}
-
 }

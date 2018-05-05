@@ -27,7 +27,7 @@ import javax.servlet.http.HttpServletResponse;
  *         </p>
  * 
  */
-@WebServlet(name = "Servlet_4", urlPatterns = { "/login_servlet_4" })
+@WebServlet(name = "Servlet_4", urlPatterns = { "/servlet_4" })
 public class Servlet_4 extends HttpServlet {
 
 	private static final long serialVersionUID = 1L;
@@ -38,5 +38,4 @@ public class Servlet_4 extends HttpServlet {
 		throw new ServletException();
 
 	}
-
 }
