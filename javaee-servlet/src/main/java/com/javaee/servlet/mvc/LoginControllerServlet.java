@@ -17,14 +17,10 @@ import com.javaee.bean.LoginBean;
  *         <p>
  *         Servlet 4.0 (Annotations)
  *         </p>
- *         <p>
- *         {@link http://localhost:8080/javaee-servlet/ciclo_vida_servlet}
- * 
- *         Verificar no console os logs.
- *         </p>
  * 
  */
-//Utilizado /jsp/loginControllerServlet, pois os arquivos .jsp que consomem a Servlet estão dentro da pasta jsp.
+// Utilizado /jsp/loginControllerServlet, pois os arquivos .jsp que consomem a
+// Servlet estão dentro da pasta jsp.
 @WebServlet(name = "LoginControllerServlet", urlPatterns = { "/jsp/loginControllerServlet" })
 public class LoginControllerServlet extends HttpServlet {
 

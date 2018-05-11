@@ -5,6 +5,8 @@
 </head>
 
 <body>
-	<ct:customTag fontColor="red" visible="true" text="Univel" fontSize="50"/>
+	<ct:customTag fontColor="red" visible="true" text="Centro Universitário Univel" fontSize="50"/>
 </body>
 </html>
+
+

@@ -25,10 +25,14 @@
 	<%
 		out.println(univel + "  " + universitario);
 	%>
-	
+
 	<br />
 	<!-- JSP Expression -->
-	<p>Data de hoje: <%= (new java.util.Date()).toLocaleString() %></p>
-	
+	<%!String dataHoje = (new java.util.Date()).toLocaleString();%>
+	<p>
+		Data de hoje:
+		<%=dataHoje%>
+	</p>
+
 </body>
 </html>
